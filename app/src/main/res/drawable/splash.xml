@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+    <item android:drawable="@color/black"/>
+
+    <!--<item-->
+        <!--android:left="20dp"-->
+        <!--android:right="20dp">-->
+        <!--<shape-->
+        <!--android:shape="rectangle">-->
+
+        <!--<corners-->
+            <!--android:bottomRightRadius="4dp"-->
+            <!--android:bottomLeftRadius="4dp"-->
+            <!--android:topLeftRadius="4dp"-->
+            <!--android:topRightRadius="4dp"-->
+            <!--android:radius="50dp" />-->
+
+        <!--<gradient-->
+            <!--android:angle="45"-->
+            <!--android:centerX="100"-->
+            <!--android:centerY="100"-->
+            <!--android:endColor="#433D3E"-->
+            <!--android:gradientRadius="10"-->
+            <!--android:startColor="#9C9495"-->
+            <!--android:type="linear" />-->
+
+        <!--&lt;!&ndash;If your shape requires only one solid color&ndash;&gt;-->
+        <!--&lt;!&ndash;<solid-->
+            <!--android:color="#FFFFFF" />&ndash;&gt;-->
+
+        <!--<size-->
+            <!--android:width="50dp"-->
+            <!--android:height="50dp" />-->
+
+        <!--&lt;!&ndash;Use android:dashWidth="2dp" and android:dashGap="2dp"-->
+        <!--to add dashes to your stroke&ndash;&gt;-->
+        <!--<stroke-->
+            <!--android:width="2dp"-->
+            <!--android:color="#433D3E" />-->
+
+        <!--&lt;!&ndash;If you want to add padding&ndash;&gt;-->
+        <!--&lt;!&ndash; <padding-->
+             <!--android:left="10dp"-->
+             <!--android:top="20dp"-->
+             <!--android:right="40dp"-->
+             <!--android:bottom="8dp" />&ndash;&gt;-->
+
+    <!--</shape>-->
+    <!--</item>-->
+    <item
+        android:left="20dp"
+        android:right="20dp">
+        <bitmap
+            android:src="@drawable/logo_ii"
+            android:gravity="center" />
+    </item>
+
+</layer-list>
